@@ -24,7 +24,7 @@ function tableauPrenom($tab) {
   $c1 = array_keys($tab)[0];        #correspond à 1re clé du tableau $personnes "mdupont"
   $cc = $tab[$c1];                  #correspond au tableau de c1 donc "mdupont"
 
-  foreach($cc as $key => $val){
+  foreach($cc as $key => $val) {
     echo "<td> $key </td>";         #parcours "$cc" et affiche juste les clés
   }
 
