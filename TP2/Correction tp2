@@ -1,0 +1,9 @@
+exercice 1
+
+- Il existe une seule clé primaire et il y a 6 clés étrangère
+- select count(*) from nobels
+- select name from nobels
+where year=1903 and category='physics'
+
+exercice 2
+
